@@ -1,9 +1,9 @@
 digraph trees {
   rankdir=LR;
   subgraph opscraft {
-    "Text Files"            -> "hosts file"               [label = "Name Resolution"];
-    "Text Files"            -> "interfaces file"          [label = "IP assignment"];
-    "hosts file"            -> "DNS resolver"             [label = "Automatic Name Resolution"];
-    "interfaces file"       -> "DHCP"                     [label = "Automatic IP assignment"];
+    "text files"            -> "hosts file"               [label = "name resolution"];
+    "text files"            -> "interfaces file"          [label = "IP assignment"];
+    "hosts file"            -> "DNS resolver"             [label = "automatic name resolution"];
+    "interfaces file"       -> "DHCP"                     [label = "automatic IP assignment"];
   }
 }
