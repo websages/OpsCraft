@@ -1,4 +1,4 @@
-idigraph trees {
+digraph trees {
   rankdir=LR;
   subgraph opscraft {
     "Text Files"            -> "hosts file"               [label = "resolve"];
