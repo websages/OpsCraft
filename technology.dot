@@ -1,0 +1,7 @@
+idigraph trees {
+  rankdir=LR;
+  subgraph opscraft {
+    "Text Files"            -> "hosts file"               [label = "resolve"];
+    "Text Files"            -> "interfaces file"          [label = "IP assignment"];
+  }
+}
