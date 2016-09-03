@@ -1,16 +1,22 @@
 digraph trees {
   rankdir=LR;
   subgraph opscraft {
-    "Supply Depot"            -> "Barracks"      [label = "SCV"];
+    "Supply Depot"            -> "Barracks"
+    "SCV"                     -> "Barracks"
     "Barracks"                -> "Marine"
     "Barracks"                -> "Marauder"
     "Barracks"                -> "Reaper"
     "Barracks"                -> "Ghost"
-    "Barracks"                -> "Factory"       [label = "SCV"];
-    "Barracks"                -> "Ghost Academy" [label = "SCV"];
-    "Barracks"                -> "Bunker"        [label = "SCV"];
-    "Factory"                 -> "Starport"      [label = "SCV"];
-    "Factory"                 -> "Armory"        [label = "SCV"];
+    "Barracks"                -> "Factory"
+    "SCV"                     -> "Factory"
+    "Barracks"                -> "Ghost Academy"
+    "SCV"                     -> "Ghost Academy"
+    "Barracks"                -> "Bunker"
+    "SCV"                     -> "Bunker"
+    "Factory"                 -> "Starport"
+    "SCV"                     -> "Starport"
+    "Factory"                 -> "Armory"
+    "SCV"                     -> "Armory"
     "Factory"                 -> "Hellion"
     "Factory"                 -> "Siege Tank"
     "Factory"                 -> "Window Mine"
@@ -23,7 +29,8 @@ digraph trees {
     "Starport"                -> "Banshee"
     "Starport"                -> "Battlecruiser"
     "Starport"                -> "Liberator"
-    "Starport"                -> "Fusion Core"   [label = "SCV"];
+    "Starport"                -> "Fusion Core"
+    "SCV"                     -> "Fusion Core"
     "Refinery"
     "Tech Lab"
     "Reactor"
