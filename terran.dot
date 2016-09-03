@@ -1,0 +1,30 @@
+digraph trees {
+  rankdir=LR;
+  subgraph opscraft {
+    "Supply Depot"            -> "Barracks"      [label = "SCV"];
+    "Barracks"                -> "Marine"
+    "Barracks"                -> "Marauder"
+    "Barracks"                -> "Reaper"
+    "Barracks"                -> "Ghost"
+    "Barracks"                -> "Factory"       [label = "SCV"];
+    "Barracks"                -> "Ghost Academy" [label = "SCV"];
+    "Barracks"                -> "Bunker"        [label = "SCV"];
+    "Factory"                 -> "Starport"      [label = "SCV"];
+    "Factory"                 -> "Armory"        [label = "SCV"];
+    "Factory"                 -> "Hellion"
+    "Factory"                 -> "Siege Tank"
+    "Factory"                 -> "Window Mine"
+    "Factory"                 -> "Hellbat"
+    "Factory"                 -> "Thor"
+    "Factory"                 -> "Cyclone"
+    "Starport"                -> "Viking"
+    "Starport"                -> "Medivac"
+    "Starport"                -> "Raven"
+    "Starport"                -> "Banshee"
+    "Starport"                -> "Battlecruiser"
+    "Starport"                -> "Liberator"
+    "Starport"                -> "Fusion Core"   [label = "SCV"];
+    "Tech Lab"
+    "Reactor"
+  }
+}
