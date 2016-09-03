@@ -36,9 +36,14 @@ digraph trees {
     "Reactor"
     "Command Center"          -> "SCV"
     "Command Center"          -> "Orbital Command"
+    "SCV"                     -> "Orbital Command"
     "Command Center"          -> "Planetary Fortress"
+    "SCV"                     -> "Planetary Fortress"
     "Command Center"          -> "Engineering Bay"
+    "SCV"                     -> "Engineering Bay"
     "Engineering Bay"         -> "Missile Turret"
+    "SCV"                     -> "Missile Turret"
     "Engineering Bay"         -> "Sensor Tower"
+    "SCV"                     -> "Sensor Tower"
   }
 }
