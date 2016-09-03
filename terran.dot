@@ -24,7 +24,14 @@ digraph trees {
     "Starport"                -> "Battlecruiser"
     "Starport"                -> "Liberator"
     "Starport"                -> "Fusion Core"   [label = "SCV"];
+    "Refinery"
     "Tech Lab"
     "Reactor"
+    "Command Center"          -> "SCV"
+    "Command Center"          -> "Orbital Command"
+    "Command Center"          -> "Planetary Fortress"
+    "Command Center"          -> "Engineering Bay"
+    "Engineering Bay"         -> "Missile Turret"
+    "Engineering Bay"         -> "Sensor Tower"
   }
 }
